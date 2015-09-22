@@ -47,3 +47,5 @@ rm -rf %{buildroot}
 %{_libdir}/libtohkbd2settings-qt5.*
 %{_libdir}/qt5/qml/harbour/tohkbd2/settings/
 %{_libdir}/qt5/qml/harbour/tohkbd2/settings/
+/usr/share/jolla-settings/entries/
+/usr/share/jolla-settings/pages/harbour-tohkbd2-settings/
