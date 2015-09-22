@@ -44,6 +44,6 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{_libdir}/libtohkbd2settings-qt5.so.*
-%{_libdir}/qt5/qml/harbour/tohkbd2/settings/libtohkbd2settings.so
-%{_libdir}/qt5/qml/harbour/tohkbd2/settings/qmldir
+%{_libdir}/
+%{_libdir}/qt5/qml/harbour/tohkbd2/settings/
+%{_libdir}/qt5/qml/harbour/tohkbd2/settings/

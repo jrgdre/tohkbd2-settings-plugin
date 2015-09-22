@@ -1,6 +1,6 @@
 TEMPLATE = lib
 TARGET = tohkbd2settings-qt5
-CONFIG += qt hide_symbols create_pc create_prl
+CONFIG += qt hide_symbols #create_pc create_prl
 QT += dbus
 QT -= gui
 
