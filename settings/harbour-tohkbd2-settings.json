@@ -6,7 +6,7 @@
         "title": "Tohkbd2",
         "translation_id": "harbour-tohkbd2-settings",
         "type": "page",
-        "icon": "image://theme/icon-m-pin",
+        "icon": "/usr/share/jolla-settings/pages/harbour-tohkbd2-settings/icon-m-tohkbd2-settings.png",
         "order": 350,
         "params": {
             "source": "/usr/share/jolla-settings/pages/harbour-tohkbd2-settings/settings.qml"
