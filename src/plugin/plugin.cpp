@@ -2,7 +2,8 @@
 #include <QtQml>
 #include <QQmlEngine>
 #include <QQmlExtensionPlugin>
-#include "settings.h"
+#include "settingsui.h"
+#include "systemsettings.h"
 
 class Q_DECL_EXPORT Tohkbd2SettingsPlugin : public QQmlExtensionPlugin
 {
@@ -23,7 +24,8 @@ public:
     {
         Q_ASSERT(uri == QLatin1String("harbour.tohkbd2.settings"));
 
-        qmlRegisterType<Settings>(uri, 1, 0, "Settings");
+        qmlRegisterType<SettingsUi>(uri, 1, 0, "Settings");
+        qmlRegisterType<SystemSettings>(uri, 1, 0, "SystemSettings");
     }
 };
 

@@ -4,9 +4,18 @@ CONFIG += qt hide_symbols #create_pc create_prl
 QT += dbus
 QT -= gui
 
-SOURCES += settings.cpp
+SOURCES += \
+    settingsui.cpp \
+    systemsettings.cpp \
+    mceInterface.cpp \
+    daemonInterface.cpp
 
-HEADERS += settings.h
+HEADERS += \
+    settingsui.h \
+    systemsettings.h \
+    mceInterface.h \
+    daemonInterface.h \
+    defaultSettings.h
 
 target.path = $$[QT_INSTALL_LIBS]
 #pkgconfig.files = $$TARGET.pc
