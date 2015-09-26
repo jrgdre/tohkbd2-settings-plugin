@@ -10,7 +10,6 @@
 #include <QSettings>
 #include <QDebug>
 #include <QtDBus/QtDBus>
-#include <QtSystemInfo/QDeviceInfo>
 #include <QtAlgorithms>
 #include <linux/input.h>
 #include "defaultSettings.h"
