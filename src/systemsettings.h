@@ -26,7 +26,7 @@
     LID_CLOSE_ACTION_TKLOCK   = 2
 */
 
-class SystemSettings : public QObject
+class Q_DECL_EXPORT SystemSettings : public QObject
 {
     Q_OBJECT
 public:

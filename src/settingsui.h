@@ -10,13 +10,13 @@
 #include <QMap>
 #include "daemonInterface.h"
 
-class SettingsUi : public QObject
+class Q_DECL_EXPORT SettingsUi : public QObject
 {
     Q_OBJECT
 
 public:
     explicit SettingsUi(QObject *parent = 0);
-    ~SettingsUi();
+    virtual ~SettingsUi();
 
     Q_INVOKABLE QVariantMap getCurrentSettings();
     Q_INVOKABLE void setSettingsToDefault();
